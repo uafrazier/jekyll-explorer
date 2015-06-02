@@ -16,14 +16,11 @@
 
   <header>
     <h1>Example Jekyll Site</h1>
-      <nav>
-        <ul>
-          <li><a href='{{site.baseurl}}/index.html'>Home</a></li>
-          <li><a href='{{site.baseurl}}/about.html'>About</a></li>
-          <li><a href='{{site.baseurl}}/contact.html'>Contact</a></li>
-        </ul>
-    </nav>
+    {% include nav.html %}
   </header>
+  <footer>
+    {% include nav.html %}
+  </footer>
 
 {{content}}
 
