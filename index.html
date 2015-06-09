@@ -4,3 +4,12 @@ layout: default
 
 <h1>Giving Jekyll a Try</h1>
 <p>Is this thing on?</p>
+<p>Let's loop through some sample posts:</p>
+<ul>
+  {% for item in site.posts %}
+    <li>
+      <a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
+      <p>{{item.description}}</p>
+    </li>
+  {% endfor %}
+</ul>
