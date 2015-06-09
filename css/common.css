@@ -1,7 +1,22 @@
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 	font-kerning: auto;
 	font-size: 18px;
 	margin:0;
 	padding:0;
+}
+
+.active {
+  background: #d3d3d3;
+  color: #fff;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav > li {
+  display: inline-block;
 }
