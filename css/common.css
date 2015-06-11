@@ -9,10 +9,10 @@ body {
 	margin: 0px auto 0px auto;
 }
 
-/*a {
-  text-decoration: none;
-  color: #4A4A4A;
-}*/
+h3 {
+  padding: 0px;
+  margin: 0px 0 0px 0;
+}
 
 a:visited {
   text-decoration: none;
@@ -75,4 +75,24 @@ ul {
   padding-top: 30px;
   text-align: right;
   text-transform: uppercase;
+}
+
+.post-link {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.75em;
+/*   line-height: -25em;
+ */  padding: 0px;
+  margin: 0px;
+}
+
+.posts li .date {
+  color: gray;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+/*   line-height: .10em;
+ */  padding: 0px;
+  margin: 0px;
 }

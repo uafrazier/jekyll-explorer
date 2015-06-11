@@ -5,11 +5,12 @@ layout: default
 <h1>Giving Jekyll a Try</h1>
 <p>Is this thing on?</p>
 <p>Let's loop through some sample posts:</p>
-<ul>
+<ul class="posts">
   {% for item in site.posts limit:3 %}
     <li>
-      <a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
-      <p>{{item.description}}</p>
+      <span class="date">{{ item.date | date: '%B %d, %Y' }}</span>
+      <h3><a class="post-link" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h3>
+      <p class="description">{{item.content | strip_html | strip_newlines | truncate: 250}}</p>
     </li>
   {% endfor %}
 </ul>
