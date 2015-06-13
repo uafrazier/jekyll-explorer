@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: blog
 title: "Countdown to the 2015 Maptime Summit!"
 description: "What you need to know for the 2015 Maptime Summit"
