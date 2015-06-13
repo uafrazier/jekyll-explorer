@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: blog
 title: "Great Big March Madness Maptime Pizza Donation from CartoDB!"
 description: "Pizza for everyone thanks to CartoDB!"
