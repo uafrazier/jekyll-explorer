@@ -27,6 +27,12 @@ h3
   margin: 0px 0 0px 0;
 }
 
+.posts > hr {
+border-width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
 a:visited {
   text-decoration: none;
 }

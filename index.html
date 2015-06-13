@@ -11,6 +11,7 @@ layout: default
       <span class="date">{{ item.date | date: '%B %d, %Y' }}</span>
       <h3><a class="post-link" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h3>
       <p class="description">{{item.content | strip_html | strip_newlines | truncate: 250}}</p>
+      <p>--------------------</p>
     </li>
   {% endfor %}
 </ul>
