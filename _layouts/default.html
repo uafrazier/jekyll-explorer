@@ -8,6 +8,8 @@
 	<meta charset="utf-8">
   <link rel='shortcut icon' href='{{site.baseurl}}/imgs/moto.png' type='image/x-icon' />
 	<link rel='stylesheet' href='{{site.baseurl}}/css/common.css' />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
 
 
@@ -29,7 +31,15 @@
     {% include nav.html navclass='nav-bottom' %}
   </footer>
 
-<script src=""></script>
+
+
+<script>
+var map = L.map('map',{scrollWheelZoom:false}).setView([43.64701, -79.39425], 15);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+</script>
 </body>
 
 </html>
