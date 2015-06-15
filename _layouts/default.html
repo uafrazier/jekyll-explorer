@@ -7,14 +7,9 @@
 	<title>Jekyll Site</title>
 	<meta charset="utf-8">
   <link rel='shortcut icon' href='{{site.baseurl}}/imgs/moto.png' type='image/x-icon' />
-	<link rel='stylesheet' href='{{site.baseurl}}/css/common.css' />
-	{% if page.url == '/maps/index.html' %}
-	<link rel='stylesheet' href='{{site.baseurl}}/css/maps.css' />
-	{% endif %}
+	<link rel='stylesheet' href='{{site.baseurl}}/css/main.css' />
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-
-    <style></style>
 
 </head>
 
@@ -31,13 +26,6 @@
     {% include nav.html navclass='nav-bottom' %}
   </footer>
 
-<script>
-var map = L.map('map',{scrollWheelZoom:false}).setView([43.64701, -79.39425], 15);
-
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-</script>
 </body>
 
 </html>

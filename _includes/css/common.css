@@ -125,6 +125,8 @@ a.post-link, a:visited.post-link {
 	display: block;
 }
 
+.posts li:last-child hr {display: none;}
+
 hr {
 /* 	color: #4A4A4A;
 background-color: #4A4A4A;
