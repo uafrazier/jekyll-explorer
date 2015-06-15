@@ -103,7 +103,7 @@ ul {
 }
 
 .post-link, .post-title {
-  color: green;
+  color: #008000;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.75em;
@@ -112,7 +112,7 @@ ul {
 }
 
 a.post-link, a:visited.post-link {
-	color:green;
+	color:#008000;
 }
 
 .date, .posts li .date {
