@@ -102,7 +102,7 @@ ul {
   text-transform: uppercase;
 }
 
-.post-link {
+.post-link, .post-title {
   color: green;
   font-weight: bold;
   text-decoration: none;
@@ -115,7 +115,7 @@ a.post-link, a:visited.post-link {
 	color:green;
 }
 
-.posts li .date {
+.date, .posts li .date {
   color: gray;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -125,15 +125,13 @@ a.post-link, a:visited.post-link {
 	display: block;
 }
 
-.posts li:last-child hr {display: none;}
+.posts li:last-child hr {
+	display: none;
+}
 
 hr {
-/* 	color: #4A4A4A;
-background-color: #4A4A4A;
-height: 5px;
-border: 0px; */
 	position: relative;
-	margin: 1.5rem 0;
+	margin: .5rem 0;
 	border: 0;
 	border-top: 2.5px solid #4A4A4A;
 	border-bottom: 2.5px solid #4A4A4A;
@@ -146,10 +144,3 @@ hr.lite {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
 }
-
-/* hr.short {
-position: relative;
-	width: 200px;
-	float: left;
-	display: block;
-} */

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 category: blog
 title: "Example Title"
 description: "Lorem ipsum dolor sit amet, consectetur."
