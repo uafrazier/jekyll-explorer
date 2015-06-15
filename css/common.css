@@ -32,28 +32,24 @@ border-width: 60%;
 margin-left: auto;
 margin-right: auto;
 }
-a {
+
+a, a:visited {
 	text-decoration: none;
 	color: #4A4A4A;
-}
-
-a:visited {
-  text-decoration: none;
 }
 
 header {
   display: block;
   height: 140px;
-  border-bottom: 5px solid #4A4A4A;
-	margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
-footer {
-/*   border: 5px solid #4A4A4A;
- */  margin-top: 30px;
+/* footer {
+  margin-top: 30px;
   margin-bottom: 30px;
   padding: 30px 0 30px 0;
-}
+
+} */
 
 ul {
   margin: 0;
@@ -94,12 +90,11 @@ ul {
 .nav-bottom {
   font-family: oswald, arial, sans-serif;
   float: right;
-  width: 600px;
-/*   padding-top: 30px;
-padding-bottom: 30px; */
+  width: 960px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: right;
   text-transform: uppercase;
-  border: 5px solid #4A4A4A;
 }
 
 .post-link {
@@ -107,8 +102,7 @@ padding-bottom: 30px; */
   font-weight: bold;
   text-decoration: none;
   font-size: 1.75em;
-/*   line-height: -25em;
- */  padding: 0px;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -117,42 +111,33 @@ padding-bottom: 30px; */
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: .8em;
-/*   line-height: .10em;
- */  padding: 0px;
+  padding: 0px;
   margin: 0px;
-}
-
-.third, .event {
-	width: 320px;
-	float: left;
-	text-align: center;
-}
-
-#event a {
-	font-family: oswald, arial, sans-serif;
-	font-size: 120%;
-	text-transform: uppercase;
-	text-align: left;
-	line-height: 4.5em;
 	display: block;
-	height: 120px; width: 100%;
 }
 
-#event img {
-	width: 100px;
-	height: 100px;
+hr {
+/* 	color: #4A4A4A;
+background-color: #4A4A4A;
+height: 5px;
+border: 0px; */
+	position: relative;
+	margin: 1.5rem 0;
+	border: 0;
+	border-top: 2.5px solid #4A4A4A;
+	border-bottom: 2.5px solid #4A4A4A;
+}
+
+hr.short {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+/* hr.short {
+	width: 200px;
 	float: left;
-  margin-right: 10px;
-}
-
-#event a:hover {
-  color: #3D94E1;
-  opacity: .5;
-}
-
-.twoThird, #map {
-	width: 640px;
-	height: 300px;
-	float: left;
-	text-align: center;
-}
+	display: block;
+} */
