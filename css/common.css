@@ -137,7 +137,7 @@ border: 0px; */
 	border-bottom: 2.5px solid #4A4A4A;
 }
 
-hr.short {
+hr.lite {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
@@ -146,6 +146,7 @@ hr.short {
 }
 
 /* hr.short {
+position: relative;
 	width: 200px;
 	float: left;
 	display: block;
