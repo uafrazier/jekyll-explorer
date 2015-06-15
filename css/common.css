@@ -27,6 +27,11 @@ h3
   margin: 0px 0 0px 0;
 }
 
+h3 a:visited {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
 .posts > hr {
 border-width: 60%;
 margin-left: auto;
@@ -104,6 +109,10 @@ ul {
   font-size: 1.75em;
   padding: 0px;
   margin: 0px;
+}
+
+a.post-link, a:visited.post-link {
+	color:green;
 }
 
 .posts li .date {
