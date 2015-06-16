@@ -1,0 +1,51 @@
+.third, .event {
+	width: 320px;
+	float: left;
+	text-align: center;
+}
+
+#event a {
+	font-family: oswald, arial, sans-serif;
+	font-size: 120%;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 4.5em;
+	display: block;
+	height: 120px; width: 100%;
+}
+
+#event img {
+	width: 100px;
+	height: 100px;
+	float: left;
+  margin-right: 10px;
+}
+
+#event a:hover {
+  color: #3D94E1;
+  opacity: .5;
+}
+
+#event a:active {
+  color: #3D94E1;
+}
+
+.twoThird, #map {
+	width: 640px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.nav a:hover, a.active {
+	color: #3D94E1;
+}
+
+h2 {
+	font-size: 2.4em;
+	margin: 0.7em 0em 1.7em 0em;
+	padding: 0px;
+	color: #4A4A4A;
+	line-height: 1em;
+	letter-spacing: -.06em;
+}
