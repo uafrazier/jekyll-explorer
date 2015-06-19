@@ -1,7 +1,12 @@
-.third, .event {
+.event {
 	width: 320px;
 	float: left;
 	text-align: center;
+}
+
+.event a:hover {
+	color: #3D94E1;
+	opacity: .5;
 }
 
 #event a {
@@ -30,7 +35,7 @@
   color: #3D94E1;
 }
 
-.twoThird, #map {
+#map {
 	width: 640px;
 	height: 300px;
 	float: left;
