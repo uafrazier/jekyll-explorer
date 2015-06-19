@@ -14,17 +14,20 @@
 </head>
 
 <body>
-
+  <div class="container">
   <header>
 		<h1>Vulcan Logo</h1>
     {% include nav.html navclass='nav-top' %}
   </header>
+
   <hr />
   {{content}}
   <hr class="bottom" />
+
   <footer>
     {% include nav.html navclass='nav-bottom' %}
   </footer>
+</div>
 
 </body>
 
