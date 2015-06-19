@@ -5,9 +5,6 @@ body {
 	background-color: #fff;
 	color: #4A4A4A;
 	font-family: 'Open Sans', arial, sans-serif;
-}
-
-.container {
 	width: 960px;
 	margin: 0px auto 0px auto;
 }
@@ -33,11 +30,6 @@ h3
 h3 a:visited {
 	text-decoration: none;
 	color: #4A4A4A;
-}
-
-img {
-	border: 7px solid pink;
-	border-radius: 20px;
 }
 
 .posts > hr {
@@ -71,6 +63,8 @@ border-bottom: 2.5px solid #4A4A4A; */
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -81,7 +75,7 @@ ul {
 }
 
 .nav > li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav-top {
@@ -158,6 +152,6 @@ hr.lite {
   border-bottom: 1px solid #fff;
 }
 
-/* hr.bottom {
+hr.bottom {
 	width:100%;
-} */
+}

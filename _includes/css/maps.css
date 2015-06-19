@@ -54,12 +54,3 @@ h2 {
 	line-height: 1em;
 	letter-spacing: -.06em;
 }
-
-.horizontal {
-	margin: 0 auto;
-}
-
-.horizontal > li {
-	display: inline;
-	text-align: center;
-}
