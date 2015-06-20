@@ -54,3 +54,21 @@ h2 {
 	line-height: 1em;
 	letter-spacing: -.06em;
 }
+.map-desc a {
+	color: #3D94E1;
+}
+.small {
+  color: rgba(0,0,0,.5);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  padding: 0px;
+  margin: 0px;
+}
+.small a {
+color: #3D94E1;
+}
+iframe {
+	margin:0;
+	padding:0;
+}
